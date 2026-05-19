@@ -49,7 +49,7 @@ main img {
     height: auto;
     padding: 1px;
     border: 1px solid;
-    box-shadow: 10px;
+    box-shadow: 0 0 50px gray;
 }
 
 footer {
