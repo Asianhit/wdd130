@@ -1,7 +1,13 @@
-:root {
-    --padding-general: 10px;
-    --border-general: 10px solid rgb(0 0 0 / 0.2);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+:root {
+    --padding-general: 2px;
+    --border-general: 1px solid rgb(0 0 0 / 0.2);
+    s
 }
 
 nav {
@@ -37,11 +43,10 @@ main {
 
 aside {
     width: 400px;
-    margin: 10px;
     border: var(--border-general);
     padding: 5px;
-    background-color: #000;
     color: white;
+    position: relative;
 }
 
 aside img {
@@ -54,8 +59,10 @@ main img {
     width: 150px;
     height: auto;
     padding: var(--padding-general);
-    border: 1px solid;
+    border: 1px solid steelblue;
     box-shadow: 0 0 50px gray;
+    float: right;
+    margin: 0 0 1rem 1rem;
 }
 
 footer {
@@ -65,4 +72,20 @@ footer {
     background-color: blue;
     color: #fff;
     padding: 10px;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid #000;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    clear: right;
+}
+
+aside h2 {
+    position: absolute;
+    top: 65px;
+    left: 90px;
 }
