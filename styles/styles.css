@@ -7,12 +7,13 @@
 :root {
     --padding-general: 2px;
     --border-general: 1px solid rgb(0 0 0 / 0.2);
-    s
+
 }
 
 nav {
-    background-color: darkblue;
+    background-color: blue;
     padding: 10px;
+    border: 5px;
 }
 
 nav a {
@@ -23,6 +24,7 @@ nav a {
 
 h1 {
     color: darkblue;
+    padding: 10px;
 }
 
 img {
@@ -34,7 +36,7 @@ img {
 }
 
 p {
-    padding: 0;
+    padding: 1rem 1rem 0 0;
 }
 
 main {
