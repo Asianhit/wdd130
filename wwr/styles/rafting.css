@@ -1,8 +1,5 @@
 :root {
     --general-color: black;
-    --general-padding: 5px;
-    --general-border: 2px;
-    --heading-font: "Times New Roman", "Georgia", serif;
     --general-color-2: grey;
     --background-color: black;
 }
