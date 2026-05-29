@@ -1,10 +1,10 @@
 :root {
-    --general-color: blue;
+    --general-color: black;
     --general-padding: 5px;
     --general-border: 2px;
     --heading-font: "Times New Roman", "Georgia", serif;
-    --general-color-2: black;
-    --background-color: grey;
+    --general-color-2: grey;
+    --background-color: black;
 }
 
 * {
@@ -27,11 +27,20 @@ footer {
     color: aliceblue;
 }
 
+header img {
+    width: 100px;
+    height: auto;
+}
+
 h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--general-color-2);
-    background-color: blue;
+    background-color: skyblue;
+}
+
+h2 {
+    text-align: center;
 }
 
 nav,
@@ -70,4 +79,20 @@ h1 {
 .hero article img {
     float: right;
     width: 125px;
+}
+
+footer img {
+    width: 60px;
+    height: auto;
+}
+
+.hero article {
+    position: absolute;
+    top: 5px;
+    padding: 2px;
+    color: white;
+    margin: 200px;
+    float: none;
+    background-color: darkcyan;
+
 }
