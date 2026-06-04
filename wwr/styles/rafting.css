@@ -86,7 +86,7 @@ footer img {
     position: absolute;
     width: 100%;
     top: 33%;
-    padding: 10px;
+    padding: 3px;
     color: #ffffff;
     margin: 200px 5%;
     background-color: var(--background-color);
@@ -96,10 +96,14 @@ footer img {
     text-align: center;
     float: none;
     box-sizing: border-box;
-    left: 50%;
+    left: 45%;
     font-weight: bolder;
 
 }
+
+/* section .hero {
+    position: fixed;
+} */
 
 header {
     display: grid;
@@ -110,6 +114,7 @@ header {
     box-sizing: border-box;
     margin: 15px;
     background-color: slateblue;
+
 }
 
 nav {
