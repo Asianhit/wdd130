@@ -1,5 +1,5 @@
 :root {
-    --general-color-2: grey;
+    --general-color-2: rgb(0 0 0);
     --background-color: black;
 }
 
@@ -27,8 +27,7 @@ header img {
     height: auto;
 }
 
-h1,
-h2 {
+h1 {
     font-family: var(--heading-font);
     color: white;
     background-color: black;
@@ -36,6 +35,8 @@ h2 {
 
 h2 {
     text-align: center;
+    background-color: #fff;
+    color: black;
 }
 
 nav,
