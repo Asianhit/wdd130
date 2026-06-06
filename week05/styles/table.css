@@ -1,0 +1,21 @@
+table {
+    margin: 20px 10px;
+    padding: 10px;
+    border: 3px solid rgb(140 140 140);
+    border-collapse: collapse;
+}
+
+thead tr,
+tfoot tr {
+    background-color: #000;
+    font-size: large;
+    font-weight: 700;
+    color: white;
+}
+
+th,
+td {
+    border: 1px solid rgb(150 150 150);
+    padding: 8px;
+    text-align: center;
+}

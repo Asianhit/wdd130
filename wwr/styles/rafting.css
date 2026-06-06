@@ -30,8 +30,8 @@ header img {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--general-color-2);
-    background-color: skyblue;
+    color: white;
+    background-color: black;
 }
 
 h2 {
@@ -113,7 +113,7 @@ header {
     width: 100%;
     box-sizing: border-box;
     margin: 15px;
-    background-color: slateblue;
+    background-color: black;
 
 }
 
@@ -182,6 +182,6 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #333;
+    background-color: var(--background-color);
     color: #fff;
 }
