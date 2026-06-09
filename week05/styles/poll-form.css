@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 100%;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    margin: 0 auto;
+    width: 100%;
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: navy;
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    max-width: 830%;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+/* .space {
+    padding: 10px;
+    margin: 5 auto;
+} */
+
+fieldset {
+    display: grid;
+    gap: .5rem;
+    margin: 1rem;
+    border: 1px solid #000;
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: blue;
+    font-size: 1.3em;
+}
+
+label,
+input,
+button,
+select,
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4px;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input,
+textarea,
+select {
+    padding: 0.5rem;
+    font-size: larger;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+/* button {
+    margin: 1rem;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    text-align: center;
+} */
+
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #777;
+    border-top: 1px solid #ccc;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 2px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+.textarea-grouping {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.textarea-grouping label {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.textarea-grouping textarea {
+    width: 100%;
+}
+
+button[type="submit"],
+.button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 25px;
+    background-color: #1d4ed8;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font: 1rem;
+    cursor: pointer;
+}
+
+.textarea-row {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.textarea-row textarea {
+    width: 100%;
+    max-width: 450px;
+    height: 100%;
+}

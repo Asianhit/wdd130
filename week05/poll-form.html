@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+
+<body>
+    <header>
+        WDD 130 | HTML Form - User poll
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div class="form-item column2">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+                <div class="form-item column2">
+                    <Label for="email">Email Address:</Label>
+                    <input type="email" id="useremail" name="useremail" required>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <div class="form-item column1">
+                    <label for="browser">What is your favorite internet browser?</label>
+                    <select name="browser" id="browser">
+                        <option value="1">select</option>
+                        <option value="2">Chrome</option>
+                        <option value="3">Safari</option>
+                        <option value="4">Firefox</option>
+                        <option value="5">Others</option>
+                    </select>
+                </div>
+                <div class="form-item column1">
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" id="pet" name="pet">
+                </div>
+                <div class="textarea-row">
+                    <label for="feedback">List the places you have lived:</label>
+                    <textarea id="feedback" name="feedback" rows="4"
+                      placeholder="Calabar, Lagos, Niger, Abuja and Jos"></textarea>
+                </div>
+            </fieldset>
+            <div class="button">
+                <button type="submit">Submit poll✅</button>
+            </div>
+        </form>
+
+    </main>
+    <footer>
+        ©️ 2026 | HTML form - user poll Activity | Samuel Asian
+    </footer>
+</body>
+
+</html>
