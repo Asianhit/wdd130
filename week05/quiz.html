@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz-Form</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+    <header>This is a Quiz Form</header>
+    <main class="box">
+        <h1>✅ Basic HTML and CSS Quiz</h1>
+        <form class="box">
+            <fieldset>
+                <legend>Question 1</legend>
+                <div class="box">
+                    <label for="q1">1. What does the acronym HTML stands for?</label>
+                    <input type="text" id="q1" name="q1" required>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Question 2</legend>
+                <div class="box">
+                    <label for="q2">2. What does the acronym CSS stands for?</label>
+                    <input type="text" id="q2" name="q2" required>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Question 3</legend>
+                <div class="box">
+                    <label for="q3">3. Describe the function of CSS, (should be more than 50
+                        words)!</label>
+                    <textarea type="description" id="q3" name="q3" required></textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Question 4</legend>
+                <div class="box">
+                    <label for="q4">4. Which of the following is not a tag to structure a
+                        basic body contain in HTML</label>
+                    <select name="q4" id="q4">
+                        <option value="" selected disabled>Choose one</option>
+                        <option value="2">A. Header</option>
+                        <option value="3">B. Main</option>
+                        <option value="4">C. article</option>
+                        <option value="5">D. Footer</option>
+                    </select>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Question 5</legend>
+                <label>5. Which tag is used to add an image to an element</label>
+                <div class="box">
+                    <label for="q5"><input type="radio" name="q5" value="img"> img</label>
+                    <label for="q5"><input type="radio" name="q5" value="image"> image</label>
+                    <label for="q5"><input type="radio" name="q5" value="picture"> picture</label>
+                    <label for="q5"><input type="radio" name="q5" value="photo"> photo</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <div class="box">
+                    <legend>Question 6</legend>
+                    <label for="q6">6. What is the bottom margin for this declaration</label>
+                    <code>margin: 10px 15px 15px;</code>
+                    <input type="number" id="q6" name="q6">
+            </fieldset>
+            </div>
+            <button type="submit">submit Quiz</button>
+        </form>
+    </main>
+    <footer>
+        <p>©️ 2026 | Samuel Christian Asian 🌲</p>
+    </footer>
+</body>
+
+</html>
