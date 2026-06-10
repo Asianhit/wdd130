@@ -80,6 +80,9 @@ h1 {
 footer img {
     width: 40px;
     height: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .hero article {
@@ -161,11 +164,11 @@ section img {
     height: 150px;
 }
 
-footer img {
+/* footer img {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-}
+} */
 
 .socialmedia {
     display: flex;
