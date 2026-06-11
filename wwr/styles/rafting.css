@@ -132,8 +132,8 @@ nav {
 
 .boss {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
     width: 100%;
     max-width: 1200px;
     margin: 20px auto;
@@ -144,10 +144,12 @@ nav {
 }
 
 .boss img {
-    width: 100%;
-    height: 250px;
+    width: 120px;
+    height: 120px;
+    background-color: rgb(63, 63, 70);
     object-fit: cover;
-    border-radius: 5px;
+    border-radius: 4px;
+    margin-bottom: 10px;
 }
 
 .action {
@@ -337,33 +339,6 @@ footer {
     font-size: 1.5rem;
     background-color: transparent;
     color: rgb(255, 255, 255);
-}
-
-.boss {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-}
-
-.boss figure {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.boss img {
-    width: 120px;
-    height: 120px;
-    background-color: rgb(63, 63, 70);
-    object-fit: cover;
-    border-radius: 4px;
-    margin-bottom: 10px;
-}
-
-.boss figcaption {
-    font-size: 0.9rem;
-    color: rgb(240, 248, 255);
 }
 
 @media (max-width: 768px) {
