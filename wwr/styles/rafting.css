@@ -1,5 +1,4 @@
 :root {
-    /* Industry standard contrast optimization: adjusted token values to safe defaults */
     --general-color-2: rgb(18, 18, 18);
     --background-color: rgb(255, 255, 255);
 }
@@ -13,7 +12,6 @@
 body {
     font-family: var(--heading-font);
     color: rgb(18, 18, 18);
-    /* High contrast dark body text */
 }
 
 main {
@@ -66,7 +64,6 @@ h1 {
     text-align: center;
     font-family: var(--heading-font);
     color: rgb(255, 255, 255);
-    /* Adding text-shadow gives critical readability protection over dynamic light/dark imagery */
     text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.9);
 }
 
@@ -92,10 +89,8 @@ footer img {
     width: 100%;
     top: 33%;
     padding: 15px;
-    /* Increased padding slightly for structural balance */
     color: rgb(255, 255, 255);
     margin: 200px 5%;
-    /* Solid black element block backing ensures flawless text contrast on dynamic image backgrounds */
     background-color: rgb(0, 0, 0);
     transform: translateX(-50%);
     max-width: 700px;
@@ -146,7 +141,6 @@ nav {
 
 .caption {
     color: rgb(255, 255, 255);
-    /* White on dark main background */
 }
 
 .boss img {
@@ -192,7 +186,6 @@ footer {
     padding: 20px;
     font-family: Arial, sans-serif;
     background-color: rgb(37, 99, 235);
-    /* Royal Blue */
 }
 
 .act {
@@ -209,7 +202,6 @@ footer {
 .act p {
     margin: 4px 0;
     color: rgb(255, 255, 255);
-    /* Fixed: Shifted to white for readable 4.5:1+ contrast against royal blue */
 }
 
 .contact-layout {
@@ -259,7 +251,6 @@ footer {
 .form-container .group-label {
     font-size: 0.95rem;
     color: rgb(255, 255, 255);
-    /* Fixed: Black text on royal blue background fails contrast requirements */
 }
 
 .form-container input[type="text"],
@@ -269,7 +260,6 @@ footer {
     background-color: rgb(255, 255, 255);
     color: rgb(18, 18, 18);
     border: 1px solid rgb(255, 255, 255);
-    /* White frame structure */
     border-radius: 4px;
     box-sizing: border-box;
 }
@@ -319,7 +309,6 @@ footer {
     width: 100%;
     padding: 12px;
     background-color: rgb(255, 255, 255);
-    /* Contrast flip: white background container with black text color */
     color: rgb(0, 0, 0);
     border: 1px solid rgb(255, 255, 255);
     border-radius: 4px;
@@ -338,7 +327,6 @@ footer {
     border: 1px solid rgb(255, 255, 255);
     padding: 20px;
     background-color: rgb(24, 24, 27);
-    /* Fixed dark block backing to retain white text rules cleanly */
     text-align: center;
     margin-top: 40px;
 }
