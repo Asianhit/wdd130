@@ -1,6 +1,7 @@
 :root {
-    --general-color-2: rgb(0, 0, 0);
-    --background-color: rgb(0, 0, 0);
+    /* Industry standard contrast optimization: adjusted token values to safe defaults */
+    --general-color-2: rgb(18, 18, 18);
+    --background-color: rgb(255, 255, 255);
 }
 
 * {
@@ -11,7 +12,8 @@
 
 body {
     font-family: var(--heading-font);
-    color: var(--background-color);
+    color: rgb(18, 18, 18);
+    /* High contrast dark body text */
 }
 
 main {
@@ -30,7 +32,7 @@ header img {
 h2 {
     text-align: center;
     background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    color: rgb(18, 18, 18);
 }
 
 nav,
@@ -62,9 +64,10 @@ h1 {
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.7;
     font-family: var(--heading-font);
     color: rgb(255, 255, 255);
+    /* Adding text-shadow gives critical readability protection over dynamic light/dark imagery */
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.9);
 }
 
 #single {
@@ -88,11 +91,12 @@ footer img {
     position: absolute;
     width: 100%;
     top: 33%;
-    padding: 3px;
+    padding: 15px;
+    /* Increased padding slightly for structural balance */
     color: rgb(255, 255, 255);
     margin: 200px 5%;
-    background-color: var(--background-color);
-    opacity: 0.7;
+    /* Solid black element block backing ensures flawless text contrast on dynamic image backgrounds */
+    background-color: rgb(0, 0, 0);
     transform: translateX(-50%);
     max-width: 700px;
     text-align: center;
@@ -100,12 +104,7 @@ footer img {
     box-sizing: border-box;
     left: 45%;
     font-weight: bolder;
-
 }
-
-/* section .hero {
-    position: fixed;
-} */
 
 header {
     display: grid;
@@ -116,7 +115,6 @@ header {
     box-sizing: border-box;
     margin: 15px;
     background-color: rgb(0, 0, 0);
-
 }
 
 nav {
@@ -147,7 +145,8 @@ nav {
 }
 
 .caption {
-    color: rgb(249, 249, 249);
+    color: rgb(255, 255, 255);
+    /* White on dark main background */
 }
 
 .boss img {
@@ -160,19 +159,13 @@ nav {
 .action {
     display: grid;
     grid-row: 1/10;
-    color: rgb(249, 249, 249);
+    color: rgb(255, 255, 255);
 }
 
 section img {
     width: 100px;
     height: 150px;
 }
-
-/* footer img {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-} */
 
 .socialmedia {
     display: flex;
@@ -189,7 +182,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: var(--background-color);
+    background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
 }
 
@@ -199,6 +192,7 @@ footer {
     padding: 20px;
     font-family: Arial, sans-serif;
     background-color: rgb(37, 99, 235);
+    /* Royal Blue */
 }
 
 .act {
@@ -214,7 +208,8 @@ footer {
 
 .act p {
     margin: 4px 0;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    /* Fixed: Shifted to white for readable 4.5:1+ contrast against royal blue */
 }
 
 .contact-layout {
@@ -263,14 +258,18 @@ footer {
 .form-container label,
 .form-container .group-label {
     font-size: 0.95rem;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    /* Fixed: Black text on royal blue background fails contrast requirements */
 }
 
 .form-container input[type="text"],
 .form-container input[type="email"] {
     width: 100%;
     padding: 8px 12px;
-    border: 1px solid rgb(118, 118, 118);
+    background-color: rgb(255, 255, 255);
+    color: rgb(18, 18, 18);
+    border: 1px solid rgb(255, 255, 255);
+    /* White frame structure */
     border-radius: 4px;
     box-sizing: border-box;
 }
@@ -300,7 +299,9 @@ footer {
     width: 100%;
     height: 100px;
     padding: 8px 12px;
-    border: 1px solid rgb(118, 118, 118);
+    background-color: rgb(255, 255, 255);
+    color: rgb(18, 18, 18);
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 4px;
     resize: vertical;
     box-sizing: border-box;
@@ -317,23 +318,27 @@ footer {
     grid-column: 1 / -1;
     width: 100%;
     padding: 12px;
-    background-color: rgb(224, 224, 224);
-    border: 1px solid rgb(118, 118, 118);
+    background-color: rgb(255, 255, 255);
+    /* Contrast flip: white background container with black text color */
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 4px;
     font-size: 1rem;
     cursor: pointer;
     margin-top: 10px;
+    font-weight: bold;
     transition: background 0.2s ease;
 }
 
 .form-container button[type="submit"]:hover {
-    background-color: rgb(208, 208, 208);
+    background-color: rgb(220, 225, 235);
 }
 
 .people {
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
     padding: 20px;
-    background-color: rgb(249, 249, 249);
+    background-color: rgb(24, 24, 27);
+    /* Fixed dark block backing to retain white text rules cleanly */
     text-align: center;
     margin-top: 40px;
 }
@@ -342,6 +347,8 @@ footer {
     margin-top: 0;
     margin-bottom: 30px;
     font-size: 1.5rem;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
 }
 
 .boss {
@@ -360,7 +367,7 @@ footer {
 .boss img {
     width: 120px;
     height: 120px;
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(63, 63, 70);
     object-fit: cover;
     border-radius: 4px;
     margin-bottom: 10px;
@@ -368,7 +375,7 @@ footer {
 
 .boss figcaption {
     font-size: 0.9rem;
-    color: rgb(51, 51, 51);
+    color: rgb(240, 248, 255);
 }
 
 @media (max-width: 768px) {
