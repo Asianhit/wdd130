@@ -381,3 +381,12 @@ footer {
         gap: 30px;
     }
 }
+
+.boss .caption {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+    display: block;
+    margin-top: 8px;
+}
