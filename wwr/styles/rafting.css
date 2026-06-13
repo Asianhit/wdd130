@@ -1,5 +1,5 @@
 :root {
-    --general-color-2: rgb(56, 53, 53);
+    --general-color-2: #445;
 }
 
 * {
@@ -9,7 +9,7 @@
 }
 
 body {
-    color: rgb(18, 18, 18);
+    color: #111;
 }
 
 main {
@@ -17,7 +17,7 @@ main {
     max-width: 840px;
     margin: 0 auto;
     background-color: var(--general-color-2);
-    color: rgb(240, 248, 255);
+    color: #fff;
 }
 
 header img {
@@ -27,8 +27,8 @@ header img {
 
 h2 {
     text-align: center;
-    background-color: rgb(255, 255, 255);
-    color: rgb(18, 18, 18);
+    background-color: #ffffff;
+    color: #000;
 }
 
 nav,
@@ -61,12 +61,12 @@ h1 {
     padding: 16px;
     text-align: center;
     font-family: var(--heading-font);
-    color: rgb(255, 255, 255);
-    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.9);
+    color: #fff;
+    text-shadow: 0px 2px 4px #000;
 }
 
 #single {
-    color: rgb(240, 248, 255);
+    color: #ffff;
 }
 
 .hero article img {
@@ -87,9 +87,9 @@ footer img {
     width: 100%;
     top: 33%;
     padding: 15px;
-    color: rgb(255, 255, 255);
+    color: #fff;
     margin: 200px 5%;
-    background-color: rgb(0, 0, 0);
+    background-color: #000;
     transform: translateX(-50%);
     max-width: 700px;
     text-align: center;
@@ -107,7 +107,7 @@ header {
     width: 100%;
     box-sizing: border-box;
     margin: 15px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #112;
 }
 
 nav {
@@ -124,7 +124,7 @@ nav {
 
 .grid a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: #fff;
     font-weight: bolder;
 }
 
@@ -138,13 +138,13 @@ nav {
 }
 
 .caption {
-    color: rgb(255, 255, 255);
+    color: #fff;
 }
 
 .boss img {
     width: 120px;
     height: 120px;
-    background-color: rgb(63, 63, 70);
+    background-color: #899;
     object-fit: cover;
     border-radius: 4px;
     margin-bottom: 10px;
@@ -153,7 +153,7 @@ nav {
 .action {
     display: grid;
     grid-row: 1/10;
-    color: rgb(255, 255, 255);
+    color: #fff;
 }
 
 section img {
@@ -176,8 +176,8 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: rgb(255, 255, 255);
+    background-color: #111;
+    color: #fff;
 }
 
 .main-color {
@@ -185,7 +185,7 @@ footer {
     margin: 0 auto;
     padding: 20px;
     font-family: Arial, sans-serif;
-    background-color: rgb(37, 99, 235);
+    background-color: #000;
 }
 
 .act {
@@ -201,7 +201,7 @@ footer {
 
 .act p {
     margin: 4px 0;
-    color: rgb(255, 255, 255);
+    color: #fff;
 }
 
 .contact-layout {
@@ -215,7 +215,7 @@ footer {
 .map iframe {
     width: 100%;
     height: 400px;
-    background-color: rgb(224, 224, 224);
+    background-color: #fff;
 }
 
 .form-container form {
@@ -250,16 +250,16 @@ footer {
 .form-container label,
 .form-container .group-label {
     font-size: 0.95rem;
-    color: rgb(255, 255, 255);
+    color: #fff;
 }
 
 .form-container input[type="text"],
 .form-container input[type="email"] {
     width: 100%;
     padding: 8px 12px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(18, 18, 18);
-    border: 1px solid rgb(255, 255, 255);
+    background-color: #ffff;
+    color: #012;
+    border: 1px solid #fff;
     border-radius: 4px;
     box-sizing: border-box;
 }
@@ -289,9 +289,9 @@ footer {
     width: 100%;
     height: 100px;
     padding: 8px 12px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(18, 18, 18);
-    border: 1px solid rgb(255, 255, 255);
+    background-color: #fff;
+    color: #111;
+    border: 1px solid #fff;
     border-radius: 4px;
     resize: vertical;
     box-sizing: border-box;
@@ -308,9 +308,9 @@ footer {
     grid-column: 1 / -1;
     width: 100%;
     padding: 12px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    border: 1px solid rgb(255, 255, 255);
+    background-color: #fff;
+    color: #001;
+    border: 1px solid #fff;
     border-radius: 4px;
     font-size: 1rem;
     cursor: pointer;
@@ -320,13 +320,14 @@ footer {
 }
 
 .form-container button[type="submit"]:hover {
-    background-color: rgb(220, 225, 235);
+    background-color: #fff;
 }
 
 .people {
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid #fff;
     padding: 20px;
-    background-color: rgb(24, 24, 27);
+    background-color: #111111;
+    ;
     text-align: center;
     margin-top: 40px;
 }
@@ -336,7 +337,7 @@ footer {
     margin-bottom: 30px;
     font-size: 1.5rem;
     background-color: transparent;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
 }
 
 @media (max-width: 768px) {
@@ -351,7 +352,7 @@ footer {
 }
 
 .boss .caption {
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     font-weight: 600;
     font-size: 1rem;
     text-align: center;
@@ -520,7 +521,7 @@ main h3 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.65);
+    background-color: #111111;
     padding: 30px;
     text-align: center;
     border-radius: 8px;
