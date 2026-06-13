@@ -521,7 +521,7 @@ main h3 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #111111;
+    background-color: rgba(17, 17, 17, 0.15);
     padding: 30px;
     text-align: center;
     border-radius: 8px;
