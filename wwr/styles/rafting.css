@@ -358,3 +358,322 @@ footer {
     display: block;
     margin-top: 8px;
 }
+
+main {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 40px 20px;
+}
+
+main h1,
+main h2,
+main h3 {
+    color: #ffffff;
+}
+
+.trips-hero {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.trips-hero p {
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 1.6;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ff6f00;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 28px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e65100;
+}
+
+.trips-container {
+    margin-bottom: 60px;
+}
+
+.trips-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.trips-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.trip-card {
+    background-color: #1a1a1a;
+    border: 1px solid #333333;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.trip-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+.trip-info {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.trip-info h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+}
+
+.trip-duration {
+    color: #ffb300;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+}
+
+.trip-info p {
+    line-height: 1.5;
+    margin: 0;
+}
+
+.trips-table-section {
+    max-width: 1200px;
+    margin: 0 auto 40px auto;
+}
+
+.trips-table-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+.trips-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #1a1a1a;
+}
+
+.trips-table th,
+.trips-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #333333;
+}
+
+.trips-table th {
+    background-color: #2a2a2a;
+    color: #ffb300;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+}
+
+.trips-table tbody tr:nth-child(even) {
+    background-color: #222222;
+}
+
+.trips-table tbody tr:hover {
+    background-color: #2d2d2d;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.hero > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hero-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 30px;
+    text-align: center;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 600px;
+}
+
+.hero-box h1 {
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin: 0 0 10px 0;
+}
+
+.hero-box p {
+    color: #ffb300;
+    font-size: 1.2rem;
+    margin: 0 0 20px 0;
+}
+
+.hero-cta {
+    display: inline-block;
+    background-color: #ff6f00;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 24px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.hero-cta:hover {
+    background-color: #e65100;
+}
+
+.home-purpose-section {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.home-purpose-section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 40px;
+}
+
+@media (max-width: 500px) {
+    .home-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.grid-card {
+    background-color: #1a1a1a;
+    border: 1px solid #333333;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.grid-card img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    display: block;
+}
+
+.grid-text {
+    padding: 25px;
+}
+
+.grid-text h3 {
+    color: #ffb300;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.grid-text p {
+    line-height: 1.6;
+    margin: 0;
+}
+
+.newsletter-section {
+    background-color: #111111;
+    padding: 60px 20px;
+    border-top: 1px solid #333333;
+}
+
+.newsletter-container {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.newsletter-container h2 {
+    margin-top: 0;
+}
+
+.newsletter-container p {
+    margin-bottom: 30px;
+    color: #cccccc;
+}
+
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.form-group input {
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid #444444;
+    background-color: #222222;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.form-group input:focus {
+    outline: 2px solid #ff6f00;
+}
+
+.subscribe-button {
+    background-color: #ff6f00;
+    color: #ffffff;
+    border: none;
+    padding: 14px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.subscribe-button:hover {
+    background-color: #e65100;
+}
